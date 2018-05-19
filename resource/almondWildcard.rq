@@ -1,0 +1,5 @@
+PREFIX food: <http://data.lirmm.fr/ontologies/food#>
+
+select ?s where {
+	?s food:name "Almond*" .
+}
