@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00d38b94-697c-4ffb-a3f4-93c8f2e8bff7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Jena.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/neo4j_driver.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TugasAkhir.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TugasAkhir/Clause.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TugasAkhir/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TugasAkhir/Social.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TugasAkhir/SparqlConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TugasAkhir/clauseBehavior/ProjectingBehavior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TugasAkhir/clauseBehavior/ReadingBehavior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TugasAkhir/clauseBehavior/ReadingOnlyClause.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TugasAkhir/clauseBehavior/ReadingWithSubClause.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/TugasAkhir/clauseBehavior/SimpleProjectingBehavior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Ahmad_Yani.rdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/ahmadYani.rq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/ahmadYani2.rq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/almondMilk.rq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/almondWildcard.rq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/bloggers.rq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/owlDemoData.rdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sourcePenelitian/5114100109_Nafiar Rahmansyah.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sourcePenelitian/p482-zou.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clause.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Social.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SparqlConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clauseBehavior/ProjectingBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clauseBehavior/ReadingBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clauseBehavior/ReadingOnlyClause.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clauseBehavior/ReadingWithSubClause.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clauseBehavior/SimpleProjectingBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,23 +26,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="115">
-                <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <first_editor relative-caret-position="487">
+                <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -129,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/clauseBehavior/ReadingBehavior.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -276,12 +229,12 @@
       <workItem from="1526630887532" duration="4168000" />
       <workItem from="1526718351121" duration="730000" />
       <workItem from="1526739432549" duration="185000" />
-      <workItem from="1526739980662" duration="555000" />
+      <workItem from="1526739980662" duration="1664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103941000" />
+    <option name="totallyTimeSpent" value="105050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -730,20 +683,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="115">
-            <caret line="27" selection-start-line="27" selection-end-line="27" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="487">
+            <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
