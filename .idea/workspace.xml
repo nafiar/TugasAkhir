@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00d38b94-697c-4ffb-a3f4-93c8f2e8bff7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resource/cypherQuery.cyp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cypherQuery.cyp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cypherQuery.cyp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resource/cypherQuery.cyp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -57,12 +56,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3174">
-                <caret line="138" selection-start-line="138" selection-end-line="138" />
+              <first_editor relative-caret-position="161">
+                <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,11 +110,11 @@
         <option value="$PROJECT_DIR$/src/clauseBehavior/ReadingOnlyClause.java" />
         <option value="$PROJECT_DIR$/src/clauseBehavior/ReadingBehavior.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/resource/cypherQuery.ch" />
         <option value="$PROJECT_DIR$/src/PropertyGetter.java" />
         <option value="$PROJECT_DIR$/resource/cypherQuery.cyp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -277,12 +276,12 @@
       <workItem from="1526811382330" duration="1576000" />
       <workItem from="1526823903049" duration="2106000" />
       <workItem from="1526842507980" duration="4616000" />
-      <workItem from="1526867317509" duration="9250000" />
+      <workItem from="1526867317509" duration="9514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126352000" />
+    <option name="totallyTimeSpent" value="126616000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -311,8 +310,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32924962" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.491358" visible="true" weight="0.18504532" />
-      <window_info active="true" anchor="bottom" id="Graph Database Console" order="12" visible="true" weight="0.3754153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.491358" visible="true" weight="0.18504532" />
+      <window_info anchor="bottom" id="Graph Database Console" order="12" visible="true" weight="0.3754153" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.50864196" side_tool="true" weight="0.18504532" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -706,16 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3174">
-            <caret line="138" selection-start-line="138" selection-end-line="138" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/almondMilk.rq">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -747,6 +736,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="161">
+            <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

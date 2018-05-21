@@ -3,12 +3,16 @@
 ### TODO : 
 * __(DONE) Bisa query wildcard__
 * tambah query yang lebih kompleks
-* cari case2 yang masih belom bisa dilakuin, upgrade
-	* query rule no. 3
-	* query 
+* testing pakai dataset yang besar -> setting GC biar kuat 
+* __(DONE)__ cari case2 yang masih belom bisa dilakuin, upgrade
+	* query rule no. 3 : mustahil T_T
 * __(DONE)__ tambahin apache jena buat query langsung ke jena-fuseki dari sparql yang udah ada 
 * __(DONE)__ hitung running time waktu query neo4j sama query apache jena 
 * __(DONE)__ hitung memory usage waktu query neo4j sama query apache jena
+
+#### Tambah ke analisa :
+* metode convert sparql jadi cypher (baca __pattern__)
+* ga bisa convert beberapa jenis query (sumber : https://github.com/neo4j/neo4j/issues/1696)
 
 #### hapus semua data neo4j
 ```
