@@ -12,7 +12,7 @@
 
 #### Tambah ke analisa :
 * metode convert sparql jadi cypher (baca __pattern__)
-* ga bisa convert beberapa jenis query (sumber : https://github.com/neo4j/neo4j/issues/1696)
+* googga bisa convert beberapa jenis query (sumber : https://github.com/neo4j/neo4j/issues/1696)
 
 #### hapus semua data neo4j
 ```
