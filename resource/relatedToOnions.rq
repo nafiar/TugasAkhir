@@ -1,0 +1,5 @@
+PREFIX food: <http://data.lirmm.fr/ontologies/food#>
+
+select ?s ?p where {
+    ?s ?p <http://fr.openfoodfacts.org/ingredient/onions> .
+}

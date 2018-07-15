@@ -1,0 +1,6 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX void: <http://rdfs.org/ns/void#>
+
+select ?s where {
+    ?s rdf:type <http://rdfs.org/ns/void#Dataset> .
+}

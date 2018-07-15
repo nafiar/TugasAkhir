@@ -1,0 +1,5 @@
+PREFIX food: <http://data.lirmm.fr/ontologies/food#>
+
+select ?o where {
+    <http://world-fr.openfoodfacts.org/produit/0010096752660/gourmet-pizza-sauce-caputo> food:containsIngredient ?o .
+}

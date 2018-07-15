@@ -1,0 +1,5 @@
+PREFIX food: <http://data.lirmm.fr/ontologies/food#>
+
+select ?p where {
+    <http://world-fr.openfoodfacts.org/produit/0052745953028/solid-dark-chocolate-fannie-may> ?p <http://fr.openfoodfacts.org/ingredient/vanilla> .
+}

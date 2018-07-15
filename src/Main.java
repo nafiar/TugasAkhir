@@ -1,5 +1,7 @@
 import org.apache.jena.base.Sys;
 import org.apache.jena.query.*;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.sparql.engine.http.QueryEngineHTTP;
 import org.neo4j.driver.v1.*;
 
@@ -19,17 +21,27 @@ public class Main {
         noSSL = Config.build().withEncryptionLevel(Config.EncryptionLevel.NONE).toConfig();
         driver = GraphDatabase.driver("bolt://localhost:7687",AuthTokens.basic("neo4j","mrwhite"),noSSL); // <password>
 
-        myConverter = new SparqlConverter("resource/almondMilk.rq");
+        myConverter = new SparqlConverter("resource/containFoodOreganoCondit.rq");
+
+        System.out.println("cypher : " + myConverter.getCypherQuery());
 
         doCypherQuery();
-        doSparqlQuery("resource/almondMilk.rq");
+        doSparqlQuery("resource/containFoodOreganoCondit.rq");
 
         printTimeAndMemUsage();
+
+//        readRdf();
+    }
+
+    private static void readRdf() {
+        Model myModel = ModelFactory.createDefaultModel();
+        myModel.read("resource/26fr.openfoodfacts.org.products.rdf", "");
+//        myModel.write(System.out);
     }
 
     public static void doCypherQuery(){
         String cypher = myConverter.getCypherQuery();
-        System.out.println("cypher : " + cypher);
+//        System.out.println("cypher : " + cypher);
 
         try (Session session = driver.session())
         {
@@ -44,13 +56,14 @@ public class Main {
             cypherDuration = (endTime - startTime)/1000000;
             cypherMemuse = (afterUsedMem-beforeUsedMem)/1024;
 
-            System.out.println("Hasil Cypher Quer : ");
+            System.out.println("Hasil Cypher Query : ");
             // Each Cypher execution returns a stream of records.
             while (result.hasNext())
             {
                 Record record = result.next();
                 // Values can be extracted from a record by index or name.
-                System.out.println(record.get(myConverter.returnQueryString()).asString());
+//                System.out.println(record.get(myConverter.returnQueryString()).asString());
+                System.out.println(record.values());
             }
         }
     }
@@ -80,9 +93,9 @@ public class Main {
 
     public static void printTimeAndMemUsage(){
         System.out.println("Duration of running time Cypher Query : " + cypherDuration + " ms");
-        System.out.println("Memory usage of Cypher Query : " + cypherMemuse + " Kb");
+//        System.out.println("Memory usage of Cypher Query : " + cypherMemuse + " Kb");
         System.out.println("Duration of running time SPARQL Query : " + sparqlDuration + " ms");
-        System.out.println("Memory usage of SPARQL Query : " + sparqlMemuse + " Kb");
+//        System.out.println("Memory usage of SPARQL Query : " + sparqlMemuse + " Kb");
     }
 }
 

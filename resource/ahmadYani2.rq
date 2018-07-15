@@ -1,7 +1,0 @@
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX dbpid: <http://id.dbpedia.org/resource/>
-PREFIX ontDbp: <http://dbpedia.org/ontology/>
-
-SELECT ?o WHERE {
-    dbpid:Ahmad_Yani ontDbp:wikiPageWikiLink ?o .
-}

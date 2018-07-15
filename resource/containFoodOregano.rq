@@ -1,0 +1,6 @@
+PREFIX food: <http://data.lirmm.fr/ontologies/food#>
+
+select ?x ?y where {
+    ?x food:containsIngredient ?y .
+    ?y food:food <http://fr.openfoodfacts.org/ingredient/oregano> .
+}

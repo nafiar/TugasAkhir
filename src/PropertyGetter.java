@@ -20,7 +20,7 @@ public class PropertyGetter {
             // Each Cypher execution returns a stream of records.
             while (result.hasNext())
             {
-                Map<String, Object> mapResult = result.asMap();
+//                Map<String, Object> mapResult = result.asMap();
 //                Record record = result.next();
 
                 // Values can be extracted from a record by index or name.
